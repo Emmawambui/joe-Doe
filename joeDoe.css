@@ -23,6 +23,7 @@ header {
     justify-content: space-between;
     border: solid;
     padding: 10px 20px;
+    padding-left: 150px;
 }
 header .color {
     color: red;
@@ -51,12 +52,13 @@ section{
     /* padding-top: 80px;
     padding-left: 50px; */
     display: flex;
+    gap: 4rem;
 }
 
 .image img{
-    width: 600px;
-    height: 900px;
-    object-fit: cover;
+    width: 500px;
+    height: 200px;
+    object-fit:fill ;
 }
 section h1{
     font-size: 50px; 
@@ -86,6 +88,7 @@ button{
 .row {
     max-width: 1100px;
     margin: 0 auto;
+    padding-top: 70px;
 }
 
 
